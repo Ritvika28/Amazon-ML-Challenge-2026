@@ -1,0 +1,39 @@
+# Environments & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Project Data (ignore raw/processed data contents, preserve structure)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+
+# Models & Artifacts
+models/*
+!models/.gitkeep
+
+# Pipeline Outputs
+outputs/*
+!outputs/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/candidates/.gitkeep
+!outputs/validation/.gitkeep
+
+# Logs
+*.log
